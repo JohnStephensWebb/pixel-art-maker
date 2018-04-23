@@ -1,10 +1,14 @@
+body{
+  background-image: url("https://i.pinimg.com/originals/93/a1/c0/93a1c03d5715c281133854f816c3e36d.jpg");
+}
 .container{
   border-style: double;
-  height: 465px
+  height: 465px;
+  background-color: white;
 }
 .pallet{
   border-style: double;
-  background-image: url("https://uspstrackingtool.com/wp-content/uploads/2018/03/Color-background-224.jpg");
+  background-color: silver;
 }
 .pixel{
   height: 10px;
