@@ -1,0 +1,17 @@
+.container{
+  border-style: double;
+}
+.pixel{
+  height: 300px;
+  border-style: solid;
+  border-width: 1px
+}
+h1{
+  text-align: center;
+}
+.buttonRed{
+background-color: red;
+}
+/* .buttonBlue{
+  background-color: blue; */
+}
