@@ -21,6 +21,12 @@ body{
   text-align: center;
   color: white;
 }
+.clear{
+  border-style: double;
+  text-align: center;
+  color: white;
+  border-spacing: 5px
+}
 h1{
   text-align: center;
 }
@@ -50,9 +56,34 @@ color: white;
 }
 .buttonYellow{
 background-color: yellow;
-color: white;
+color: black;
 }
 .buttonOrange{
 background-color: orange;
+color: white;
+}
+.buttonGold{
+background-color: #F1C40F;
+color: white;
+}
+.buttonWhite{
+background-color: white;
+color: white;
+color: black
+}
+.buttonWineRed{
+background-color: #570000;
+color: white;
+}
+.buttonSilver{
+background-color: #D5D8DC;
+color: white;
+}
+.buttonPink{
+background-color: #E91E63;
+color: white;
+}
+.buttonLightBlue{
+background-color: #03A9F4  ;
 color: white;
 }

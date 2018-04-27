@@ -9,6 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
     canvas.appendChild(newDiv)
   }
 // storing color on click ========================================
+function clear(event){
+  $(".pixel").css("background-color", "white")
+}
+$(".clear").click(clear)
 
   let color;
   let selectedColor = $(".selectedColor")
@@ -23,7 +27,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   $(".pixel").click(paintColor)
 
-
+  $(".pixel").mousemove(function(e){
+    if(e.buttons==1){
+      $(event.target).css("background-color", color)
+    }
+  });
 
 
 });
